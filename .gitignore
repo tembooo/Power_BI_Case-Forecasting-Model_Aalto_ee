@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.bak
+
+# Microsoft Office lock files
+~$*
+
+# Power BI / Fabric local artifacts
+.pbi/
+*.pbix~
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+latex_build/
+
+# Python / notebooks if used later
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local secrets / environment
+.env
+.env.*
+secrets.*
